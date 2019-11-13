@@ -21,6 +21,7 @@ before_script:
 script:
   - ng build --prod --base-href https://BHAARATH002.github.io/bitcoin-order-app/
 
+
 deploy:
   provider: pages
   skip_cleanup: true
